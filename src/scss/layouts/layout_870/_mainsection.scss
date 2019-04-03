@@ -1,0 +1,74 @@
+
+  .mainsection {
+    background-image: url(../../../i/bg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 585px;
+    overflow: hidden;
+
+
+    .logo {
+      position: relative;
+      background-color: rgba(12, 16, 19, 0.9);
+      height: 65px;
+      top: 0;
+      width: 100%;
+
+      img {
+        display: block;
+        margin: auto;
+        padding-top: 12px;
+        width: 160px;
+      }
+    }
+
+    .flag {
+      position: absolute;
+      top: 93px;
+      left: 50%;
+      margin-left: -182px;
+      height: 250px;
+      width: 362px;
+    }
+
+    .bben {
+      position: absolute;
+      left: calc(50% - 351px);
+      top: 19%;
+      width: 289px;
+      height: 360px;
+      animation: jumpben 300ms linear, rotateben 300ms 4 ease-in-out 300ms;
+    }
+
+    .bridge {
+      position: absolute;
+      top: 81px;
+      left: calc(50% - 127px);
+      width: 650px;
+      height: 372px;
+      animation: jumpbridge 300ms linear, rotatebridge 300ms 4 ease-in-out 300ms;
+    }
+
+    .pepsi {
+      position: absolute;
+      left: 50%;
+      margin-left: -438px;
+      bottom: 72px;
+      height: 368px;
+      width: 880px;
+    }
+
+    .aboutexpert {
+      position: absolute;
+      left: calc(50% - 92px);
+      top: 340px;
+      font-family: 'Roboto', sans-serif;
+      color: white;
+      font-size: 11px;
+      text-align: center;
+    }
+    .aboutexpert1100 {
+      display: none;
+    }
+  }

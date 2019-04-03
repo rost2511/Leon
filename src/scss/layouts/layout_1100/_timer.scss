@@ -1,0 +1,78 @@
+.timer {
+  position: relative;
+
+  #timer {
+    position: fixed;
+    color: #d71015;
+    font-family: DS-DIGIB;
+    font-size: 40px;
+    z-index: 3;
+    left: 50%;
+    margin-left: 241px;
+    top: 8px;
+
+    .fsTimerNumber {
+      margin-right: 34px;
+    }
+  }
+
+  .rectangle {
+    position: fixed;
+    display: block;
+    left: calc(50% - 95px);
+    top: -10px;
+    z-index: 2;
+    width: 605px;
+    height: 65px;
+    -webkit-transform: skew(-7deg);
+    -moz-transform: skew(-7deg);
+    -o-transform: skew(-7deg);
+    background: url("../../../i/Group-5.png");
+    background-size: cover;
+
+  }
+
+  .rectangle1_h2 {
+    font-family: TTSquaresCondensedBlackItalic;
+    font-size: 26px;
+    margin: 0;
+    color: white;
+    position: absolute;
+    left: calc(50% - 269px);
+    top: 16%;
+    z-index: 2;
+    text-transform: uppercase;
+  }
+
+  .rectangle1_p {
+    font-family: TTSquaresCondensedBlackItalic;
+    font-size: 16px;
+    margin: 0;
+    color: white;
+    position: absolute;
+    left: calc(50% - 270px);
+    top: 65%;
+    z-index: 2;
+    text-transform: uppercase;
+
+    span {
+      color: #fdc000;
+      text-transform: uppercase;
+    }
+  }
+  .timer_p {
+    position: absolute;
+    left: calc(50% + 19px);
+    top: 66%;
+    margin: 0;
+    z-index: 2;
+
+    span {
+      font-family: TTSquaresCondensedBlackItalic;
+      font-size: 9px;
+      margin: 0 20px;
+      color: white;
+      text-transform: uppercase;
+    }
+  }
+}

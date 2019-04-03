@@ -1,0 +1,100 @@
+.blacksection {
+  font-family: TTSquaresCondensedBlackItalic;
+  font-size: 33px;
+  color: white;
+  height: 1px;
+
+  .prizefund {
+    position: absolute;
+    text-align: center;
+    left: calc(50% - 351px);
+    text-transform: uppercase;
+    top: 633px;
+
+
+    span {
+      color: #d71015;
+      background: linear-gradient(to top, #d71015 30%, #e79698);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      border-top: 2px solid transparent;
+      box-shadow:inset 0 3px 2px -2px rgba(106, 107, 114, 0.5),inset 0 -3px 2px -2px rgba(106, 107, 114, 0.5);
+    }
+  }
+
+  .buttonblock {
+    position: absolute;
+    top: 502px;
+    left: calc(50% - 500px);
+    width: 1000px;
+    height: 135px;
+    -webkit-transform: skew(-5deg);
+    -moz-transform: skew(-5deg);
+    -o-transform: skew(-5deg);
+    background: url("../../../i/Group-6.png");
+    background-size: cover;
+    margin: auto;
+    overflow: hidden;
+
+    .buttonblock_title {
+      font-family: TTSquaresCondensedBlackItalic;
+      font-size: 64px;
+      color: white;
+      text-align: left;
+      padding-left: 40px;
+      padding-top: 18px;
+      margin-top: 0;
+      margin-bottom: 0;
+      text-transform: uppercase;
+    }
+
+    .buttonblock_p {
+      font-size: 23px;
+      color: #d71015;
+      text-align: left;
+      padding-left: 30px;
+      margin-top: 4px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+
+      span {
+        color: white;
+        text-transform: uppercase;
+      }
+    }
+
+    .button {
+      position: relative;
+      bottom: 123px;
+      left: calc(50% - 230px);
+      width: 377px;
+      height: 90px;
+      -webkit-transform: skew(-7deg);
+      -moz-transform: skew(-7deg);
+      -o-transform: skew(-7deg);
+      background: #fdc000;
+      animation: blink infinite 700ms linear;
+
+      a {
+        display: block;
+        text-align: center;
+        height: 100%;
+        text-decoration: none;
+
+        p {
+          font-size: 32px;
+          color: black;
+          padding-top: 28px;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    .highlight {
+      position: relative;
+      top: -165px;
+      left: -118px;
+      animation: highlightrun1100 infinite 5s linear, highlightopacity870 infinite 5s linear;
+    }
+  }
+}

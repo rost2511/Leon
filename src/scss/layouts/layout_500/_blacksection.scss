@@ -1,0 +1,94 @@
+.blacksection {
+  font-family: TTSquaresCondensedBlackItalic;
+  font-size: 22px;
+  color: white;
+  height: 175px;
+
+  .prizefund {
+    position: relative;
+    text-align: center;
+    margin: -105px auto 4px auto;
+    text-transform: uppercase;
+
+    span {
+      color: #d71015;
+      background: linear-gradient(to top, #d71015 30%, #e79698);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      border-top: 2px solid transparent;
+      box-shadow:inset 0 3px 2px -2px rgba(106, 107, 114, 0.5),inset 0 -3px 2px -2px rgba(106, 107, 114, 0.5);
+    }
+  }
+
+  .buttonblock {
+    width: 485px;
+    height: 68px;
+    -webkit-transform: skew(-5deg);
+    -moz-transform: skew(-5deg);
+    -o-transform: skew(-5deg);
+    background: url("../../../i/Group-6.png") 50%;
+    margin: auto;
+    overflow: hidden;
+
+    .buttonblock_title {
+      font-family: TTSquaresCondensedBlackItalic;
+      font-size: 25px;
+      color: white;
+      text-align: left;
+      padding-left: 21px;
+      padding-top: 7px;
+      margin-top: 0;
+      margin-bottom: 0;
+      text-transform: uppercase;
+    }
+
+    .buttonblock_p {
+      font-size: 15px;
+      color: #d71015;
+      text-align: left;
+      padding-left: 16px;
+      margin-top: 4px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+
+      span {
+        color: white;
+        text-transform: uppercase;
+      }
+    }
+
+    .button {
+      position: relative;
+      bottom: 61px;
+      left: calc(50% - 111px);
+      width: 184px;
+      height: 44px;
+      -webkit-transform: skew(-7deg);
+      -moz-transform: skew(-7deg);
+      -o-transform: skew(-7deg);
+      background: #fdc000;
+      animation: blink infinite 700ms linear;
+
+      a {
+        display: block;
+        text-align: center;
+        height: 100%;
+        text-decoration: none;
+
+        p {
+          font-size: 17px;
+          color: black;
+          padding-top: 14px;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    .highlight {
+      position: relative;
+      top: -100px;
+      left: -118px;
+      animation: highlightrun1100 infinite 5s linear, highlightopacity1100 infinite 5s linear;
+    }
+  }
+}

@@ -1,0 +1,76 @@
+.timer {
+  position: relative;
+
+  #timer {
+    position: absolute;
+    color: #d71015;
+    font-family: DS-DIGIB;
+    font-size: 21px;
+    z-index: 3;
+    //left: 182px;
+    left: calc(50% - 68px);
+    top: 29px;
+
+    .fsTimerNumber {
+      margin-right: 18px;
+    }
+  }
+
+  .rectangle {
+    position: relative;
+    display: block;
+    margin: 12px auto 0 auto;
+    z-index: 2;
+    width: 190px;
+    height: 60px;
+    -webkit-transform: skew(-7deg);
+    -moz-transform: skew(-7deg);
+    -o-transform: skew(-7deg);
+    background: url("../../../i/Group-2.png") 50%;
+
+  }
+
+  .rectangle1_h2 {
+    font-family: TTSquaresCondensedBlackItalic;
+    font-size: 13.8px;
+    margin: 0;
+    color: white;
+    position: absolute;
+    left: calc(50% - 51px);
+    top: 4%;
+    z-index: 2;
+    text-transform: uppercase;
+  }
+
+  .rectangle1_p {
+    font-family: TTSquaresCondensedBlackItalic;
+    font-size: 8px;
+    margin: 0;
+    color: white;
+    position: absolute;
+    left: calc(50% - 72px);
+    top: 30%;
+    z-index: 2;
+    text-transform: uppercase;
+
+    span {
+      color: #fdc000;
+      text-transform: uppercase;
+    }
+  }
+  .timer_p {
+    position: absolute;
+    left: calc(50% - 75px);
+    top: 68%;
+    margin: 0;
+    z-index: 2;
+
+    span {
+      font-family: TTSquaresCondensedBlackItalic;
+      font-size: 5px;
+      margin: 0 9px;
+      color: white;
+      text-transform: uppercase;
+    }
+  }
+}

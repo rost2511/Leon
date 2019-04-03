@@ -1,0 +1,91 @@
+.blacksection {
+  font-family: TTSquaresCondensedBlackItalic;
+  font-size: 14px;
+  color: white;
+  height: 315px;
+  background-color: #0c1013;
+
+  .prizefund {
+    position: relative;
+    text-align: center;
+    margin: -23px auto 15px auto;
+    text-transform: uppercase;
+
+    span {
+      color: #d71015;
+      background: linear-gradient(to top, #d71015 30%, #e79698);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      box-shadow: 0 2px 1px -2px rgba(106, 107, 114, 0.3), 0 -2px 1px -2px rgba(106, 107, 114, 0.3);
+    }
+  }
+
+  .buttonblock {
+    width: 307px;
+    height: 150px;
+    -webkit-transform: skew(-5deg);
+    -moz-transform: skew(-5deg);
+    -o-transform: skew(-5deg);
+    background: url("../../../i/Group-4.png") 50%;
+    margin: auto;
+    overflow: hidden;
+
+    .buttonblock_title {
+      font-family: TTSquaresCondensedBlackItalic;
+      font-size: 34px;
+      color: white;
+      text-align: center;
+      padding-top: 10px;
+      margin-top: 0;
+      margin-bottom: 0;
+      text-transform: uppercase;
+    }
+
+    .buttonblock_p {
+      font-size: 15px;
+      color: #d71015;
+      text-align: center;
+      margin-top: 6px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+
+      span {
+        color: white;
+        text-transform: uppercase;
+      }
+    }
+
+    .button {
+      width: 210px;
+      height: 50px;
+      -webkit-transform: skew(-7deg);
+      -moz-transform: skew(-7deg);
+      -o-transform: skew(-7deg);
+      background: #fdc000;
+      margin: auto;
+      animation: blink infinite 700ms linear;
+
+      a {
+        display: block;
+        text-align: center;
+        height: 100%;
+        text-decoration: none;
+
+        p {
+          font-size: 18px;
+          color: black;
+          padding-top: 14px;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    .highlight {
+      position: relative;
+      top: -45px;
+      left: -118px;
+      animation: highlightrun infinite 7s linear, highlightopacity infinite 7s linear;
+
+    }
+  }
+}

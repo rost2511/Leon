@@ -1,0 +1,110 @@
+@keyframes jumpben {
+  from {top: 40%;}
+  to {top: 34%;}
+}
+
+@keyframes jumpben500 {
+  from {top: 40%;}
+  to {top: 26%;}
+}
+
+@keyframes jumpben1100 {
+  from {top: 200px;}
+  to {top: 52px;}
+}
+
+@keyframes jumpbridge {
+  from {top: 40%;}
+  to {top: 83px;}
+}
+
+@keyframes jumpbridge500 {
+  from {top: 40%;}
+  to {top: 111px;}
+}
+
+@keyframes jumpbridge1100 {
+  from {top: 200px;}
+  to {top: 26px;}
+}
+
+@keyframes rotatebridge {
+  from {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-10deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rotateben {
+  from {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(10deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes blink {
+  from {opacity: 1;}
+  to {opacity: 0.8;}
+}
+
+@keyframes highlightrun {
+  0% {left: -251px;}
+  20% {left: 130px;}
+  100% {left: 130px;}
+}
+
+@keyframes highlightrun870 {
+  0% {left: -222px;}
+  20% {left: 530px;}
+  100% {left: 550px;}
+}
+
+@keyframes highlightrun1100 {
+  0% {left: -222px;}
+  20% {left: 800px;}
+  100% {left: 800px;}
+}
+
+@keyframes highlightopacity {
+  0% {opacity: 0.1}
+  5% {opacity: 0.5}
+  12% {opacity: 0.7}
+  16% {opacity: 1}
+  18% {opacity: 0.3}
+  18% {opacity: 0.1}
+  20% {opacity: 0}
+  100% {opacity: 0}
+}
+
+@keyframes highlightopacity870 {
+  0% {opacity: 0.1}
+  5% {opacity: 0.5}
+  12% {opacity: 0.7}
+  14% {opacity: 1}
+  16% {opacity: 0.5}
+  18% {opacity: 0.3}
+  20% {opacity: 0}
+  100% {opacity: 0}
+}
