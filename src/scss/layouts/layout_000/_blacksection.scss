@@ -26,11 +26,11 @@
     -webkit-transform: skew(-5deg);
     -moz-transform: skew(-5deg);
     -o-transform: skew(-5deg);
-    background: url("../../../i/Group-4.png") 50%;
+    background: url("../../../images/group-4.png") 50%;
     margin: auto;
     overflow: hidden;
 
-    .buttonblock_title {
+    .buttonblock-title {
       font-family: TTSquaresCondensedBlackItalic;
       font-size: 34px;
       color: white;
@@ -41,7 +41,7 @@
       text-transform: uppercase;
     }
 
-    .buttonblock_p {
+    .buttonblock-p {
       font-size: 15px;
       color: #d71015;
       text-align: center;
@@ -85,7 +85,6 @@
       top: -45px;
       left: -118px;
       animation: highlightrun infinite 7s linear, highlightopacity infinite 7s linear;
-
     }
   }
 }

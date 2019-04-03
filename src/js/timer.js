@@ -31,7 +31,6 @@ var fsTimer = function (elementId, options) { //конструктор
         "<span id='" + elementId + "-fsTimerNumberHours' class='fsTimerNumber fsTimerNumberHours'>" + this.addingZeros(timerData.hours) + "</span>" +
         "<span id='" + elementId + "-fsTimerNumberMinutes' class='fsTimerNumber fsTimerNumberMinutes'>" + this.addingZeros(timerData.minutes) + "</span>" +
         "<span id='" + elementId + "-fsTimerNumberSeconds' class='fsTimerNumber fsTimerNumberSeconds'>" + this.addingZeros(timerData.seconds) + "</span>"
-    // "<div style='clear:both;'></div>"
     ;
 
     var instance = this;

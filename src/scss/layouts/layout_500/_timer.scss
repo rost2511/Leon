@@ -25,11 +25,10 @@
     -webkit-transform: skew(-7deg);
     -moz-transform: skew(-7deg);
     -o-transform: skew(-7deg);
-    background: url("../../../i/Group-5.png") 50%;
-
+    background: url("../../../images/group-5.png") 50%;
   }
 
-  .rectangle1_h2 {
+  .rectangle-h2 {
     font-family: TTSquaresCondensedBlackItalic;
     font-size: 24px;
     margin: 0;
@@ -41,7 +40,7 @@
     text-transform: uppercase;
   }
 
-  .rectangle1_p {
+  .rectangle-p {
     font-family: TTSquaresCondensedBlackItalic;
     font-size: 14px;
     margin: 0;
@@ -57,7 +56,8 @@
       text-transform: uppercase;
     }
   }
-  .timer_p {
+
+  .timer-p {
     position: absolute;
     left: calc(50% + 27px);
     top: 53%;
