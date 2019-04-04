@@ -13,20 +13,6 @@ module.exports =  (env = {mode: 'development'})  => {
         new MiniCssExtractPlugin({
             filename: 'css/style.css'
         }),
-        new ConcatPlugin({
-            uglify: isProduction,
-            sourceMap: !isProduction,
-            name: 'combinejs',
-            outputPath: 'js/',
-            fileName: 'script.js',
-            filesToConcat: [
-                './src/js/ssm.min.js',
-                './src/js/script.js'
-            ],
-            attributes: {
-                async: true
-            }
-        })
     ];
 
     if(isProduction) {
@@ -50,7 +36,7 @@ module.exports =  (env = {mode: 'development'})  => {
         mode: env.mode,
 
         entry: {
-            app: ["./src/js/app.js", './src/scss/style.scss']
+            app: ['./src/scss/style.scss']
         },
         output: {
                 path: __dirname + "/dist",
